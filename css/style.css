@@ -215,3 +215,43 @@ form input[type="submit"]:hover {
 #img12 {
   background-image: url("/img/galeria12.jpg");
 }
+/*contatos */
+.form_contato {
+  width: 500px;
+}
+.form_contato input[type="text"],
+.form_contato input[type="email"],
+.form_contato textarea {
+  display: block;
+  border: 1px solid #006599;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "open sans", sans-serif;
+}
+.form_contato input[type="text"]:focus,
+.form_contato input[type="email"]:focus,
+.form_contato textarea:focus {
+  border-color: #2790c6;
+}
+.form_contato textarea {
+  height: 150px;
+}
+.form_contato ::placeholder {
+  color: #2790c6;
+}
+.form_contato input[type="submit"] {
+  margin-left: 0;
+  font-size: 16px;
+  width: 180px;
+}
+/*footer*/
+footer {
+  height: 100px;
+  padding-top: 150px;
+  color: #006599;
+}
+footer p {
+  text-align: center;
+}
