@@ -131,15 +131,12 @@ form input[type="submit"]:hover {
 }
 /* sessao sobre */
 
-#sessao_sobre,
-.sessao_minibanner {
+.sessao_sobre .sessao_minibanner {
   float: right;
   margin-right: 50px;
   background-image: url("/img/banner4.jpg");
-  background-repeat: repeat;
 }
-#sessao_sobre,
-.sessao_descricao {
+.sessao_sobre .sessao_descricao {
   position: absolute;
   left: 25px;
   width: calc(100% - 400px);
